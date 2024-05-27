@@ -51,3 +51,6 @@ mintNFT("Sam" , "22BCS14000" , "Ludhiana", "BE-CSE");
 listNFTs();
 getTotalSupply();
 
+var applicationID = "22BCS14812";
+console.log("Application ID: " + applicationID);
+

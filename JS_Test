@@ -32,11 +32,7 @@ function mintNFT (name , std_ID , city , course) {
 // and print their metadata with console.log()
 function listNFTs () {
     for(let i=0 ; i<NFTs.length ; i++){
-        console.log("\nID: " + (i+1));
-        console.log("Name: " + NFTs[i].name);
-        console.log("Student ID:  " + NFTs[i].std_ID);
-        console.log("City: " + NFTs[i].city);
-        console.log("Course " + NFTs[i].course);
+        console.log(NFTs[i]);
     }
 }
 
@@ -53,4 +49,3 @@ getTotalSupply();
 
 var applicationID = "22BCS14812";
 console.log("Application ID: " + applicationID);
-
